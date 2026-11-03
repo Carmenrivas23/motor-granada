@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacta con BIO MOTOR y cuéntanos qué coche estás buscando.">
+  <title>Contacto | BIO MOTOR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="BIO MOTOR, inicio"><span class="brand-mark">B</span><span>BIO<span class="brand-light">MOTOR</span></span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a class="active" href="contacto.html">Contacto</a><a class="nav-cta" href="contacto.html">Encuentra tu coche <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero"><div class="container page-hero-content"><p class="eyebrow"><span class="eyebrow-line"></span> ESTAMOS PARA AYUDARTE</p><h1>Hablemos de<br><em>lo que te mueve.</em></h1><p>Cuéntanos qué estás buscando. Nuestro equipo ficticio estará encantado de orientarte.</p></div></section>
+    <section class="contact-section section-space"><div class="container contact-grid">
+      <div class="contact-details"><p class="eyebrow dark-eyebrow">CONTACTO</p><h2>El primer paso<br>es una conversación.</h2><p class="contact-lead">Rellena el formulario y prepara el comienzo de tu próxima aventura.</p>
+        <div class="contact-detail"><span class="detail-icon">✉</span><div><small>EMAIL DE EJEMPLO</small><a href="mailto:hola@biomotor.example">hola@biomotor.example</a></div></div>
+        <div class="contact-detail"><span class="detail-icon">⌖</span><div><small>UBICACIÓN FICTICIA</small><span>Granada, Andalucía</span></div></div>
+        <p class="small-note">BIO MOTOR es una marca ficticia creada exclusivamente para una actividad académica.</p>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row"><label for="name">Nombre completo</label><input id="name" name="name" type="text" placeholder="Tu nombre" required></div>
+        <div class="form-row"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" placeholder="tunombre@email.com" required></div>
+        <div class="form-row"><label for="interest">¿Qué estás buscando?</label><select id="interest" name="interest" required><option value="">Selecciona una opción</option><option>Un coche urbano</option><option>Un SUV o familiar</option><option>Un coche híbrido o eléctrico</option><option>Quiero recibir asesoramiento</option></select></div>
+        <div class="form-row"><label for="message">Tu mensaje</label><textarea id="message" name="message" rows="4" placeholder="Cuéntanos un poco más..." required></textarea></div>
+        <button class="button button-primary form-submit" type="submit">Preparar mensaje <span>↗</span></button>
+        <p class="form-feedback" id="form-feedback" role="status">El formulario prepara un correo en tu aplicación de email; no almacena ni envía datos a un servidor.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="index.html"><span class="brand-mark">B</span><span>BIO<span class="brand-light">MOTOR</span></span></a><p>Muévete hacia el futuro.</p><div class="footer-links"><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="contacto.html">Contacto</a></div></div><div class="container footer-bottom"><span>© 2026 BIO MOTOR · Proyecto ficticio académico</span><span>Diseñado para avanzar.</span></div></footer>
+</body>
+</html>
